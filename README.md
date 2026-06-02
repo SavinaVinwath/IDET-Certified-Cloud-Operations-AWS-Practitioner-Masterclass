@@ -15,8 +15,10 @@ Relevant days and included materials:
     - create.php, db.php, delete.php, edit.php, index.php, README.md
   - VPC Note/
     - VPC.md
+- Day 5/
+  - DAY 5.md
 
-Find the source code and notes attached in the `Day 1` through `Day 4` folders above.
+Find the source code and notes attached in the `Day 1` through `Day 5` folders above.
 
 Cloning instructions:
 
