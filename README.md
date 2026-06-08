@@ -18,7 +18,14 @@ Relevant days and included materials:
 - Day 5/
   - DAY 5.md
 
-Find the source code and notes attached in the `Day 1` through `Day 5` folders above.
+- Day 6/
+  - index.html
+  - s3-storage.md
+
+- Day 7/
+  - databases.md
+
+Find the source code and notes attached in the `Day 1` through `Day 7` folders above.
 
 Cloning instructions:
 
