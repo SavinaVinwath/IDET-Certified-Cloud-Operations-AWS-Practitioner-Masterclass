@@ -1,5 +1,16 @@
 # PART 2 - AWS DATABASE SERVICES
 
+## RDS - Relational Database Service 
+- Fully managed relational database service that handles setup, operation, and scaling of databases. 
+- Supports major engines: MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, and Aurora.
+- Automates backups, patching, monitoring, and failure detection. 
+- Provides high availability using Multi‑AZ deployments with automatic failover. 
+- Offers read replicas for read scalability and offloading heavy queries. 
+- Allows point‑in‑time recovery and snapshot-based restores. 
+- Provides cost‑efficient, resizable compute and storage options. 
+- Integrates with VPC and IAM for network isolation and access control. 
+- Available in On‑Demand and Reserved Instance pricing models. 
+
 ## 2.1 RDS Supported Engines
 
 | Engine            | When to use                                                                       |
