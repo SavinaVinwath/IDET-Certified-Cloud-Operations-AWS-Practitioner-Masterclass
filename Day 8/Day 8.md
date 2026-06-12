@@ -1,4 +1,4 @@
-# DAY 8 - Serverless, Monitoring & Alarms
+# DAY 8 - Serverless, SNS, Monitoring & Alarms
 
 ---
 
