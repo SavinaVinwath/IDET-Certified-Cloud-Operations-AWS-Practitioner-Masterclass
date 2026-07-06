@@ -829,18 +829,17 @@ ecr_repository_url = "123456789012.dkr.ecr.us-east-1.amazonaws.com/devops-class-
 From the Part 3 Docker app folder:
 
 ```bash
-# 1. Authenticate Docker to ECR
-aws ecr get-login-password --region us-east-1 | \
-  docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
-
-# 2. Build the image
+1. Build the image
 docker build -t devops-class-app .
 
-# 3. Tag it for ECR
-docker tag devops-class-app:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/devops-class-app:latest
+2. Authenticate Docker to ECR
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 050752629903.dkr.ecr.us-east-1.amazonaws.com
 
-# 4. Push
-docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/devops-class-app:latest
+3. Tag it for ECR
+docker tag devops-class-app:latest 050752629903.dkr.ecr.us-east-1.amazonaws.com/devops-class-app:latest
+
+4. Push
+docker push 050752629903.dkr.ecr.us-east-1.amazonaws.com/devops-class-app:latest
 ```
 
 > Replace `123456789012...` with your actual `ecr_repository_url` output value.
