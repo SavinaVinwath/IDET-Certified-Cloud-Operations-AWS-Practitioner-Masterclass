@@ -697,6 +697,7 @@ resource "aws_security_group" "ecs_service_sg" {
 resource "aws_ecr_repository" "app_repo" {
   name                 = var.project_name
   image_tag_mutability = "MUTABLE"
+  force_delete         = true
 
   image_scanning_configuration {
     scan_on_push = true
